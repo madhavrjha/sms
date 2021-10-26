@@ -291,3 +291,17 @@ body {
 #side-nav .sub-menu a .fa-caret-down {
   margin-left: auto;
 }
+
+@media screen and (max-width: 576px) {
+  #main-header #branding {
+    height: 30px;
+  }
+
+  #menu-toggle {
+    padding: 10px 20px;
+  }
+
+  #side-nav {
+    top: 56px;
+  }
+}
