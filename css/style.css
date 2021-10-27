@@ -10,6 +10,8 @@
 
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 * i {
   display: inline-block;
   min-width: 20px;
@@ -29,7 +31,7 @@
 
 #main-nav {
   background-color: #c8d6e5;
-  border-bottom: 3px solid #8395a7;
+  border-bottom: 1px solid #8395a7;
 }
 
 #brand-img {
@@ -223,10 +225,11 @@
 #main-footer ul {
   list-style-type: none;
   padding: 0;
+  padding-top: 1rem;
 }
 
 #main-footer li {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.4rem;
   margin-left: 0.5rem;
 }
 
@@ -274,6 +277,7 @@
     width: auto;
   }
 }
+
 /*
 
 =================================
@@ -301,4 +305,66 @@
 #bottom-footer span {
   font-size: 0.8rem;
   color: #979797;
+}
+
+/*
+
+=================================
+=================================
+
+          Showcase
+
+=================================
+=================================
+
+*/
+
+#showcase {
+  padding: 3rem 0;
+  background-color: #fff;
+}
+
+#showcase .container {
+  display: flex;
+}
+
+#showcase .slider {
+  flex: 1;
+  margin-right: 2rem;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#showcase .content {
+  flex: 1;
+  padding: 1rem;
+  line-height: 1.7rem;
+}
+
+#showcase .content p span {
+  text-transform: uppercase;
+  color: #454545;
+}
+
+#showcase .content .brand-text {
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+#showcase .content ul {
+  columns: 2;
+}
+
+@media screen and (max-width: 768px) {
+  #showcase {
+    padding: 1rem 0;
+  }
+  #showcase .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #showcase .slider {
+    border-radius: 0;
+  }
 }
