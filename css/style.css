@@ -66,6 +66,180 @@
 =================================
 =================================
 
+          Showcase
+
+=================================
+=================================
+
+*/
+
+#showcase {
+  padding: 3rem 0;
+  background-color: #fff;
+}
+
+#showcase .container {
+  display: flex;
+}
+
+#showcase .slider {
+  flex: 1;
+  margin-right: 2rem;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#showcase .content {
+  flex: 1;
+  padding: 1rem;
+  line-height: 1.7rem;
+}
+
+#showcase .container p {
+  margin-bottom: 0.3rem;
+}
+
+#showcase .content p span {
+  text-transform: uppercase;
+  color: #454545;
+}
+
+#showcase .content .brand-text {
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+#showcase .content ul {
+  columns: 2;
+}
+
+@media screen and (max-width: 768px) {
+  #showcase {
+    padding: 1rem 0;
+  }
+  #showcase .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #showcase .slider {
+    border-radius: 0;
+    margin-right: 0;
+  }
+
+  #showcase .content ul {
+    columns: 1;
+  }
+}
+
+/*
+
+=================================
+=================================
+
+      Statements Section
+
+=================================
+=================================
+
+*/
+
+#statements {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #f9f9f9;
+}
+
+#statements p {
+  margin-bottom: 0.3rem;
+}
+
+#statements p span {
+  text-transform: uppercase;
+  color: #454545;
+}
+
+#statements h1 {
+  color: #353535;
+}
+
+#statements h1 span {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+#statements .statements-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: stretch;
+  margin-top: 1rem;
+}
+
+#statements .statement-box {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+#statements .statement-box h2 {
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 992px) {
+  #statements .statements-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #statements .statements-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*
+
+=================================
+=================================
+
+      Statements Section
+
+=================================
+=================================
+
+*/
+
+#notices {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #fff;
+}
+
+#notices h2 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+#notices .notice-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  #notices .notice-container {
+    width: 100%;
+  }
+}
+
+/*
+
+=================================
+=================================
+
           Top-Footer
 
 =================================
@@ -310,143 +484,5 @@
 @media screen and (max-width: 576px) {
   #bottom-footer span {
     display: block;
-  }
-}
-
-/*
-
-=================================
-=================================
-
-          Showcase
-
-=================================
-=================================
-
-*/
-
-#showcase {
-  padding: 3rem 0;
-  background-color: #fff;
-}
-
-#showcase .container {
-  display: flex;
-}
-
-#showcase .slider {
-  flex: 1;
-  margin-right: 2rem;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-#showcase .content {
-  flex: 1;
-  padding: 1rem;
-  line-height: 1.7rem;
-}
-
-#showcase .container p {
-  margin-bottom: 0.3rem;
-}
-
-#showcase .content p span {
-  text-transform: uppercase;
-  color: #454545;
-}
-
-#showcase .content .brand-text {
-  font-weight: bold;
-  font-family: "Lato", sans-serif;
-}
-
-#showcase .content ul {
-  columns: 2;
-}
-
-@media screen and (max-width: 768px) {
-  #showcase {
-    padding: 1rem 0;
-  }
-  #showcase .container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #showcase .slider {
-    border-radius: 0;
-    margin-right: 0;
-  }
-
-  #showcase .content ul {
-    columns: 1;
-  }
-}
-
-/*
-
-=================================
-=================================
-
-      Statements Section
-
-=================================
-=================================
-
-*/
-
-#statements {
-  width: 100%;
-  padding: 2rem 0;
-  background-color: #f9f9f9;
-}
-
-#statements p {
-  margin-bottom: 0.3rem;
-}
-
-#statements p span {
-  text-transform: uppercase;
-  color: #454545;
-}
-
-#statements h1 {
-  color: #353535;
-}
-
-#statements h1 span {
-  font-family: "Lato", sans-serif;
-  font-weight: bold;
-}
-
-#statements .statements-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  align-items: stretch;
-  margin-top: 1rem;
-}
-
-#statements .statement-box {
-  border: 1px solid #ccc;
-  padding: 1rem;
-  box-sizing: border-box;
-  background-color: #fff;
-}
-
-#statements .statement-box h2 {
-  font-size: 1.4rem;
-}
-
-@media screen and (max-width: 992px) {
-  #statements .statements-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #statements .statements-container {
-    grid-template-columns: repeat(1, 1fr);
   }
 }
