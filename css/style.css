@@ -11,6 +11,7 @@
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap");
 
 * i {
   display: inline-block;
@@ -106,7 +107,8 @@
 
 #showcase .content .brand-text {
   font-weight: bold;
-  font-family: "Lato", sans-serif;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2.7rem;
 }
 
 #showcase .content ul {
@@ -146,7 +148,7 @@
 
 #statements {
   width: 100%;
-  padding: 2rem 0;
+  padding: 3rem 0;
   background-color: #f9f9f9;
 }
 
@@ -159,12 +161,13 @@
   color: #454545;
 }
 
-#statements h1 {
+#statements h2 {
   color: #353535;
 }
 
-#statements h1 span {
-  font-family: "Lato", sans-serif;
+#statements h2 span {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2.3rem;
   font-weight: bold;
 }
 
@@ -178,13 +181,20 @@
 
 #statements .statement-box {
   border: 1px solid #ccc;
+  border-radius: 10px;
   padding: 1rem;
   box-sizing: border-box;
   background-color: #fff;
 }
 
-#statements .statement-box h2 {
+#statements .statement-box h3 {
   font-size: 1.4rem;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: bold;
+}
+
+#statements .statement-box p {
+  font-family: "Lato", sans-serif;
 }
 
 @media screen and (max-width: 992px) {
@@ -219,8 +229,13 @@
 
 #notices h2 {
   font-family: "Lato", sans-serif;
-  font-weight: bold;
   text-align: center;
+}
+
+#notices h2 span {
+  font-size: 2.3rem;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: bold;
 }
 
 #notices .notices-container {
@@ -228,6 +243,11 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   margin: 1.3rem 0;
+}
+
+#notices .card {
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 #notices .card-img-top {
@@ -280,9 +300,14 @@
 
 #news h2 {
   text-align: center;
-  font-weight: bold;
   font-family: "Lato", sans-serif;
   margin-bottom: 1rem;
+}
+
+#news h2 span {
+  font-weight: bold;
+  font-size: 2.3rem;
+  font-family: "Playfair Display", sans-serif;
 }
 
 #news .container {
@@ -298,11 +323,12 @@
 }
 
 #news .primary-news .card-img-top {
-  height: 400px;
+  height: 300px;
 }
 
 #news .primary-news .card {
-  height: 100%;
+  /* height: 100%; */
+  height: auto;
 }
 
 #news .primary-news .card-body {
@@ -317,7 +343,7 @@
 
 #news .secondary-news .card {
   flex-direction: row;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 #news .secondary-news .card:last-child {
@@ -357,6 +383,13 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  #news .primary-news .card-img-top,
+  #news .secondary-news .card-img-top {
+    height: 200px;
+  }
+}
+
 /*
 
 =================================
@@ -376,8 +409,13 @@
 
 #events h2 {
   font-family: "Lato", sans-serif;
-  font-weight: bold;
   text-align: center;
+}
+
+#events h2 span {
+  font-weight: bold;
+  font-size: 2.3rem;
+  font-family: "Playfair Display", sans-serif;
 }
 
 #events .events-container {
@@ -385,6 +423,11 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+}
+
+#events .card {
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 #events .card-img-top {
@@ -599,11 +642,17 @@
 
 @media screen and (max-width: 1200px) {
   #main-footer .container-fluid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #main-footer .container-fluid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 768px) {
   #main-footer .container-fluid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -612,6 +661,7 @@
 @media screen and (max-width: 576px) {
   #main-footer .container-fluid {
     grid-template-columns: repeat(1, 1fr);
+    gap: 0.3rem;
   }
 
   #main-footer .container-fluid div:first-child {
@@ -621,6 +671,10 @@
   #main-footer .container-fluid div:first-child img {
     width: 50%;
     height: auto;
+  }
+
+  #main-footer ul {
+    padding-top: 0.3rem;
   }
 }
 
