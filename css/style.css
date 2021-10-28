@@ -362,6 +362,63 @@
 =================================
 =================================
 
+        Events Section
+
+=================================
+=================================
+
+*/
+
+#events {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+#events h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+#events .events-container {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+#events .card-img-top {
+  height: 200px;
+}
+
+#events .card-title a {
+  color: #454545;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 992px) {
+  #events .events-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #events .events-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #events .events-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/*
+
+=================================
+=================================
+
           Top-Footer
 
 =================================
