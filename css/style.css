@@ -307,6 +307,12 @@
   color: #979797;
 }
 
+@media screen and (max-width: 576px) {
+  #bottom-footer span {
+    display: block;
+  }
+}
+
 /*
 
 =================================
@@ -341,6 +347,10 @@
   line-height: 1.7rem;
 }
 
+#showcase .container p {
+  margin-bottom: 0.3rem;
+}
+
 #showcase .content p span {
   text-transform: uppercase;
   color: #454545;
@@ -366,5 +376,77 @@
 
   #showcase .slider {
     border-radius: 0;
+    margin-right: 0;
+  }
+
+  #showcase .content ul {
+    columns: 1;
+  }
+}
+
+/*
+
+=================================
+=================================
+
+      Statements Section
+
+=================================
+=================================
+
+*/
+
+#statements {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #f9f9f9;
+}
+
+#statements p {
+  margin-bottom: 0.3rem;
+}
+
+#statements p span {
+  text-transform: uppercase;
+  color: #454545;
+}
+
+#statements h1 {
+  color: #353535;
+}
+
+#statements h1 span {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+#statements .statements-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  align-items: stretch;
+  margin-top: 1rem;
+}
+
+#statements .statement-box {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+#statements .statement-box h2 {
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 992px) {
+  #statements .statements-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #statements .statements-container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
