@@ -534,3 +534,153 @@
   </footer>
   <!-- Footer -->
 
+
+
+<section id="notices">
+    <div class="container">
+      <h2><span class="text-primary">Notices</span> For Students</h2>
+      <div class="notice-container">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Poetry Competition
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p><span class="text-primary"><i class="fas fa-calendar-days"></i> 7th October, 2021</span></p>
+                <strong>Poetry Competition distributes a cumulative sum of <sup>R</sup>5,000 to winners.</strong>
+                Persons who are 16 years old and above, and write in English. First prize is <sup>R</sup>1,000 and a
+                book
+                publication contract,
+                second prize <sup>R</sup>500 and third prize <sup>R</sup>250. The top 20 prizes receive <sup>R</sup>100
+                each. 100 Commendable
+                Mentions will
+                also be published in annual anthology. Children & Teens: Persons who are between the age
+                group of 7-15 years
+                of age, and write in English. First prize is <sup>R</sup>250, second prize <sup>R</sup>150, and third
+                prize <sup>R</sup>100.
+                The top 20 prizes
+                receive <sup>R</sup>500 each. In addition to receiving cash prizes, winners will be invited to attend
+                prize giving
+                event in August 2021 (subject to government travel restrictions). The winning and commended entries will
+                also be
+                published in the anthology.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Solo Music & Dance Competition
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p><span class="text-primary"><i class="fas fa-calendar-days"></i> 5th October, 2021</span></p>
+                <strong>An Inter Class Solo Singing Competition will organize on 5th October 2021.</strong>
+                Students from class 3, 4 & 5 canparticipate in the competition. The song would be the presenter’s
+                choice. The participants is supposed to song with a lot of composure and passion and
+                seem to enjoy what they song. It is a tough job for the judges as they will found that voice modulation
+                of
+                almost all the singers was good and the pitch perfect liek last year.
+
+                The Inter- Class Solo Dancing Competition was conducted on 7th Oct, 2020 for grades, 3, 4 & 5. The
+                lively
+                dancers set the floor on fire with their peppy presentations. Their movements captured the essence of
+                the music and
+                movements were,
+                graceful and elegant. The colorful costumes of the little ones enhanced the pleasure of watching the
+                performance. The
+                judges made a note of the expressions, stage coverage, choreography and the applauded the effort the
+                dancers put in.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Mother's day
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p><span class="text-primary"><i class="fas fa-calendar-days"></i> 8th May, 2021</span></p>
+                <strong>Mother's Day is the day that we celebrate our mothers and the influence that they have on our
+                  daily lives in South
+                  Africa.</strong>
+                Mothers and mother figures do so much for us. The day is a chance to thank them for
+                all their
+                hard work and make
+                them feel appreciated.
+
+                Mother's Day happens on a weekend, but you can incorporate it into your classroom easily with our wide
+                range of
+                resources. Why not give children the opportunity to make a card or craft to take home for the weekend?
+                School is a great
+                place to complete these activities, as it's bound to be a lovely surprise for mums and mother figures
+                everywhere.
+                Children will love the element of excitement as they secretly prepare a card or gift for their mother.
+
+                We have plenty of resources to help you teach about Mother's Day in your classroom. You can easily
+                incorporate the theme
+                into English or maths lessons with our worksheets which are ready for you to download and print. Plus,
+                we have a wide
+                variety of Mother's Day card resources which are suitable for all ages to complete! Of course, we can't
+                forget about the
+                craft options which are simple to download and use.
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  /*
+
+=================================
+=================================
+
+      Notices Section
+
+=================================
+=================================
+
+*/
+
+#notices {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #fff;
+}
+
+#notices h2 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+#notices .notice-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  #notices .notice-container {
+    width: 100%;
+  }
+
+  #notices .accordion-body {
+    text-align: justify;
+  }
+}
