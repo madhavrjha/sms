@@ -13,6 +13,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap");
 
+body {
+  font-family: "Lato", sans-serif;
+}
+
 * i {
   display: inline-block;
   min-width: 20px;
@@ -105,8 +109,8 @@
   color: #454545;
 }
 
-#showcase .content .brand-text {
-  font-weight: bold;
+#showcase .content h2 {
+  font-weight: 900;
   font-family: "Playfair Display", sans-serif;
   font-size: 2.7rem;
 }
@@ -162,10 +166,6 @@
 }
 
 #statements h2 {
-  color: #353535;
-}
-
-#statements h2 span {
   font-family: "Playfair Display", sans-serif;
   font-size: 2.3rem;
   font-weight: bold;
@@ -228,14 +228,10 @@
 }
 
 #notices h2 {
-  font-family: "Lato", sans-serif;
-  text-align: center;
-}
-
-#notices h2 span {
   font-size: 2.3rem;
   font-family: "Playfair Display", sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 
 #notices .notices-container {
@@ -300,11 +296,6 @@
 
 #news h2 {
   text-align: center;
-  font-family: "Lato", sans-serif;
-  margin-bottom: 1rem;
-}
-
-#news h2 span {
   font-weight: bold;
   font-size: 2.3rem;
   font-family: "Playfair Display", sans-serif;
@@ -408,14 +399,10 @@
 }
 
 #events h2 {
-  font-family: "Lato", sans-serif;
-  text-align: center;
-}
-
-#events h2 span {
   font-weight: bold;
   font-size: 2.3rem;
   font-family: "Playfair Display", sans-serif;
+  text-align: center;
 }
 
 #events .events-container {
