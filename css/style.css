@@ -1437,6 +1437,70 @@ body {
 =================================
 =================================
 
+          news-read.html
+          #news-detail
+
+=================================
+=================================
+
+*/
+
+#news-detail {
+    padding: 2rem 0;
+}
+
+#news-detail .container {
+    padding: 1rem;
+}
+
+#news-detail .news-title {
+    font-family: 'Sainfair Display', serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+#news-detail .news-image {
+    width: 80%;
+    margin: 1rem 0;
+}
+
+#news-detail .news-date {
+    font-weight: bold;
+}
+
+#news-detail .news-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#news-detail .news-content {
+    line-height: 1.7rem;
+    text-align: justify;
+    text-align-last: left;
+}
+
+#news-detail .news-content img {
+    display: block;
+    width: 80%;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    #news-detail .news-image {
+        width: 100%;
+    }
+
+    #news-detail .news-content img {
+        width: 100%;
+    }
+}
+
+/*
+
+=================================
+=================================
+
           Top-Footer
 
 =================================
