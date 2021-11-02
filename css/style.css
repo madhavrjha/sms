@@ -130,6 +130,13 @@ body {
         center/cover;
 }
 
+/* Sponsors.html */
+
+#page-heading[data-page='sponsors'] .container {
+    background: url('../images/sponsors-page-heading-bg.jpg') no-repeat center
+        center/cover;
+}
+
 #page-heading .container {
     border-radius: 10px;
     padding: 4rem 0;
@@ -1369,6 +1376,62 @@ body {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/*
+
+=================================
+=================================
+
+          Sponsors.html
+          #sponsors
+
+=================================
+=================================
+
+*/
+
+#sponsors {
+    padding: 2rem 0;
+    padding-top: 0;
+}
+
+#sponsors .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#sponsors .sponsors-item img {
+    width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    #sponsors .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #sponsors .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #sponsors .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 336px) {
+    #sponsors .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 /*
 
 =================================
