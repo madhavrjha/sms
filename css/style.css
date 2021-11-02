@@ -116,6 +116,13 @@ body {
         center/cover;
 }
 
+/* Our-team.html */
+
+#page-heading[data-page='our-team'] .container {
+    background: url('../images/team-page-heading-bg.jpg') no-repeat center
+        center/cover;
+}
+
 #page-heading .container {
     border-radius: 10px;
     padding: 4rem 0;
@@ -1239,6 +1246,67 @@ body {
 
 @media screen and (max-width: 576px) {
     #all-news .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/*
+
+=================================
+=================================
+
+          our-team.html
+          #team=member
+
+=================================
+=================================
+
+*/
+
+#team-member {
+    padding: 2rem 0;
+}
+
+#team-member .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+#team-member .card {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#team-member .card-img-top {
+    height: 300px;
+}
+
+#team-member .card-title {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Sainfair Display', serif;
+    text-align: center;
+}
+
+#team-member .card p {
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    #team-member .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #team-member .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #team-member .container {
         grid-template-columns: repeat(1, 1fr);
     }
 }
