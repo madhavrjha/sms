@@ -109,6 +109,13 @@ body {
         center/cover;
 }
 
+/* News.html */
+
+#page-heading[data-page='news'] .container {
+    background: url('../images/news-page-heading-bg.jpg') no-repeat center
+        center/cover;
+}
+
 #page-heading .container {
     border-radius: 10px;
     padding: 4rem 0;
@@ -1141,7 +1148,7 @@ body {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 #media img {
@@ -1171,6 +1178,68 @@ body {
     #media img {
         height: auto;
         object-fit: contain;
+    }
+}
+
+/*
+
+=================================
+=================================
+
+          news.html
+          #all-news
+
+=================================
+=================================
+
+*/
+
+#all-news {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#all-news .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: left;
+}
+
+#all-news .card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#all-news .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#all-news .card-body a.btn {
+    margin-top: auto;
+}
+
+#all-news .card-img-top {
+    height: 200px;
+}
+
+#all-news button {
+    margin: auto;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+    #all-news .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #all-news .container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
