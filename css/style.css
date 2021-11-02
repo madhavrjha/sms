@@ -123,6 +123,13 @@ body {
         center/cover;
 }
 
+/* Alumni.html */
+
+#page-heading[data-page='alumni'] .container {
+    background: url('../images/alumni-page-heading-bg.jpg') no-repeat center
+        center/cover;
+}
+
 #page-heading .container {
     border-radius: 10px;
     padding: 4rem 0;
@@ -1311,6 +1318,57 @@ body {
     }
 }
 
+/*
+
+=================================
+=================================
+
+          Alumni.html
+          #alumni
+
+=================================
+=================================
+
+*/
+
+#alumni {
+    padding: 2rem 0;
+}
+
+#alumni .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+#alumni .card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#alumni .card .card-title {
+    text-align: center;
+}
+
+#alumni .card small {
+    color: #919191;
+}
+
+#alumni .card-img-top {
+    height: 350px;
+}
+
+@media screen and (max-width: 992px) {
+    #alumni .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #alumni .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 /*
 
 =================================
