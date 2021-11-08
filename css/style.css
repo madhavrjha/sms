@@ -137,6 +137,13 @@ body {
         center/cover;
 }
 
+/* Contact.html */
+
+#page-heading[data-page='contact'] .container {
+    background: url('../images/contact-page-heading-bg.jpg') no-repeat center
+        center/cover;
+}
+
 #page-heading .container {
     border-radius: 10px;
     padding: 4rem 0;
@@ -983,7 +990,7 @@ body {
 
 #book-list-2 h1 {
     width: 100%;
-    font-family: 'Sanfair DIsplay', serif;
+    font-family: 'Playfair DIsplay', serif;
     font-weight: 900;
     color: var(--bs-dark);
     margin-bottom: 1rem;
@@ -1012,7 +1019,7 @@ body {
 #book-list-2 .book-box h2 {
     color: #fff;
     font-size: 1.3rem;
-    font-family: 'Sanfair Display', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: bold;
     background-color: var(--bs-dark);
     text-transform: uppercase;
@@ -1511,7 +1518,7 @@ body {
 }
 
 #related-news h2 {
-    font-family: 'Sanfair Display', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: bolder;
     margin-bottom: 1rem;
 }
@@ -1579,6 +1586,144 @@ body {
     #related-news .card img {
         height: 150px;
     }
+}
+
+/*
+
+=================================
+=================================
+
+          contact.html
+          #contact
+
+=================================
+=================================
+
+*/
+
+#contact {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+#contact .container {
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    padding: 1rem 1.4rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Contact Info */
+
+#contact .contact-info {
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #ccc, -1px -1px 3px #ccc;
+}
+
+#contact .contact-info p {
+    margin: 0;
+}
+
+#contact h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+#contact .contact-table {
+    padding: 0.6rem;
+}
+
+#contact .contact-table .row {
+    padding-bottom: 1rem;
+}
+
+#contact .contact-table a {
+    color: #000;
+    text-decoration: none;
+}
+
+#contact .contact-table .col-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact .social-media ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#contact .social-media li {
+    padding: 0.5rem;
+}
+
+#contact .social-media li i {
+    font-size: 1.2rem;
+}
+
+#contact .social-media a {
+    color: #353535;
+}
+
+/* Contact Form */
+
+#contact .contact-form h2 {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    #contact .contact-form h2 {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #contact .container {
+        border-radius: 0px;
+        border: none;
+    }
+
+    #contact .contact-info {
+        border-radius: 0px;
+        border: none;
+        box-shadow: none;
+        background-color: #f4f4f4;
+    }
+}
+
+/*
+
+=================================
+=================================
+
+          Contact.html
+          #map
+
+=================================
+=================================
+
+*/
+
+#map {
+    margin: 1rem 0 2rem;
+    width: 100%;
+}
+
+#map .container {
+    padding: 0;
+}
+
+#map iframe {
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
 }
 
 /*
