@@ -137,6 +137,12 @@ body {
         center/cover;
 }
 
+/* hall-of-fame.html */
+#page-heading[data-page='hall-of-fame'] .container {
+    background: url('../images/hall-of-fame-heading-bg.jpg') no-repeat center
+        center/cover;
+}
+
 /* Contact.html */
 
 #page-heading[data-page='contact'] .container {
@@ -1403,6 +1409,52 @@ body {
 
 @media screen and (max-width: 576px) {
     #alumni .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/*
+
+=================================
+=================================
+
+          hall-of-fame.html
+          #hof
+
+=================================
+=================================
+
+*/
+
+#hof {
+    padding: 2rem 0;
+}
+
+#hof .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+#hof .card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#hof .card-img-top {
+    height: 350px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 992px) {
+    #hof .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #hof .container {
         grid-template-columns: repeat(1, 1fr);
     }
 }
