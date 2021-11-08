@@ -158,68 +158,92 @@
 
     <section id="enrollment-form">
         <div class="container">
+
+            <!-- General Details -->
+            <fieldset>
+                <legend>General Details</legend>
+                <div class="row">
+
+                    <div class="col-md-6 mb-2">
+                        <label for="academic-year" class="form-label"><i class="fas fa-calendar"></i> Academic
+                            Year*</label>
+
+                        <select name="" id="academic-year" class="form-select">
+                            <option selected disabled>Select Academic Year</option>
+                            <option value="2021">2021 [JAN - DEC]</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-6 mb-2">
+                        <label for="grade" class="form-label"><i class="fas fa-user-graduate"></i> Grade (in which you
+                            have to enroll)*</label>
+
+                        <select name="" id="grade" class="form-select">
+                            <option selected disabled>Select Grade</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+
+            <!-- Personal Details -->
+            <fieldset>
+                <legend>Personal Details</legend>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-2">
+                        <label for="fn" class="form-label"><i class="fas fa-user"></i> First Name*</label>
+
+                        <input id="fn" type="text" class="form-control" name="first-name"
+                            placeholder="Student First Name" />
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-2">
+                        <label for="ln" class="form-label"><i class="fas fa-user"></i> Last Name*</label>
+
+                        <input id="ln" type="text" class="form-control" name="last-name"
+                            placeholder="Student Last Name" />
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-2">
+                        <label for="gender" class="form-label"><i class="fas fa-user"></i> Gender*</label>
+
+                        <select name="" id="gender" class="form-select">
+                            <option selected disabled>Gender</option>
+                            <option value="m">Male</option>
+                            <option value="f">Female</option>
+                            <option value="o">Others</option>
+                        </select>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-2">
+                        <label for="dob" class="form-label"><i class="fas fa-calendar"></i> Date of Birth*</label>
+                        <input type="date" name="dob" class="form-control" id="dob" />
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <label for="email" class="form-label"><i class="fas fa-envelope"></i> Student Email</label>
+
+                        <input id="email" type="email" class="form-control" name="s-email"
+                            placeholder="Student Email" />
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <label for="mobile" class="form-label"><i class="fas fa-phone"></i> Student Mobile*</label>
+
+                        <input id="mobile" type="text" class="form-control" name="s-mobile"
+                            placeholder="Student Mobile" />
+                    </div>
+
+                </div>
+            </fieldset>
+
+
             <div class="row">
-                <div class="col-lg-4 col-md-6 mb-2">
-                    <label for="academic-year" class="form-label"><i class="fas fa-calendar"></i> Academic Year*</label>
 
-                    <select name="" id="academic-year" class="form-select">
-                        <option selected disabled>Select Academic Year</option>
-                        <option value="2021">2021 [JAN - DEC]</option>
-                    </select>
-                </div>
 
-                <div class="col-lg-4 col-md-6 mb-2">
-                    <label for="grade" class="form-label"><i class="fas fa-user-graduate"></i> Grade*</label>
-
-                    <select name="" id="grade" class="form-select">
-                        <option selected disabled>Select Grade</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                    </select>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-2">
-                    <label for="fn" class="form-label"><i class="fas fa-user"></i> First Name*</label>
-
-                    <input id="fn" type="text" class="form-control" name="first-name"
-                        placeholder="Student First Name" />
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-2">
-                    <label for="ln" class="form-label"><i class="fas fa-user"></i> Last Name*</label>
-
-                    <input id="ln" type="text" class="form-control" name="last-name" placeholder="Student Last Name" />
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-2">
-                    <label for="gender" class="form-label"><i class="fas fa-user"></i> Gender*</label>
-
-                    <select name="" id="gender" class="form-select">
-                        <option selected disabled>Gender</option>
-                        <option value="m">Male</option>
-                        <option value="f">Female</option>
-                        <option value="o">Others</option>
-                    </select>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-2">
-                    <label for="dob" class="form-label"><i class="fas fa-calendar"></i> Date of Birth*</label>
-                    <input type="date" name="dob" class="form-control" id="dob" />
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <label for="email" class="form-label"><i class="fas fa-envelope"></i> Student Email</label>
-
-                    <input id="email" type="email" class="form-control" name="s-email" placeholder="Student Email" />
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <label for="mobile" class="form-label"><i class="fas fa-phone"></i> Student Mobile*</label>
-
-                    <input id="mobile" type="text" class="form-control" name="s-mobile" placeholder="Student Mobile" />
-                </div>
 
                 <div class="col-lg-4 col-md-6 mt-2">
                     <label for="Guardian-name" class="form-label"><i class="fas fa-user-tie"></i> Guardian's

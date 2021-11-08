@@ -1087,9 +1087,32 @@ body {
 #enrollment-form .container {
     padding: 1rem;
     box-sizing: border-box;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     border-radius: 10px;
-    box-shadow: 2px 2px 3px #ccc;
+    /* box-shadow: 2px 2px 3px #ccc; */
+}
+
+#enrollment-form fieldset {
+    padding: 1rem;
+    /* border: 1px solid #ccc; */
+    box-shadow: 2px 2px 5px #ccc, -2px -2px 5px #ccc;
+    margin-bottom: 2rem;
+}
+
+#enrollment-form legend {
+    position: relative;
+    padding-bottom: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+#enrollment-form legend::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    height: 3px;
+    background-color: #353535;
 }
 
 @media screen and (max-width: 576px) {
