@@ -1093,9 +1093,8 @@ body {
 #enrollment-form .container {
     padding: 1rem;
     box-sizing: border-box;
-    /* background-color: #f9f9f9; */
+    background-color: #f9f9f9;
     border-radius: 10px;
-    /* box-shadow: 2px 2px 3px #ccc; */
 }
 
 #enrollment-form fieldset {

@@ -231,7 +231,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <label for="mobile" class="form-label"><i class="fas fa-phone"></i> Student Mobile*</label>
+                        <label for="mobile" class="form-label"><i class="fas fa-phone"></i> Student Mobile</label>
 
                         <input id="mobile" type="text" class="form-control" name="s-mobile"
                             placeholder="Student Mobile" />
@@ -240,63 +240,357 @@
                 </div>
             </fieldset>
 
+            <!-- Parent-1 Details -->
 
-            <div class="row">
+            <fieldset>
+                <legend>Parent 1 Details <small>(with whom the pupil resides)</small></legend>
+
+                <div class="row">
 
 
-
-                <div class="col-lg-4 col-md-6 mt-2">
-                    <label for="Guardian-name" class="form-label"><i class="fas fa-user-tie"></i> Guardian's
-                        Name*</label>
-
-                    <input id="Guardian-name" type="text" class="form-control" name="first-name"
-                        placeholder="Guardian's Name" />
-                </div>
-
-                <div class="form-group mt-3">
-                    <label class="form-label me-3">Guardian Relation*</label>
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="relation" value="father" id="father"
-                            checked />
-                        <label class="form-check-label" for="father"> <i class="fas fa-user-tie"></i> Father </label>
+                    <div class="col-md-4 mb-2">
+                        <label for="parent-1-title" class="form-label"><i class="fas fa-user-tie"></i> Select
+                            Title*</label>
+                        <select id="parent-1-title" class="form-select" aria-label="Default select example">
+                            <option selected>Select Title</option>
+                            <option value="0110">Adv</option>
+                            <option value="0109">Adv &amp; Dr</option>
+                            <option value="0102">Adv &amp; Mrs</option>
+                            <option value="FbLf">Adv and Adv</option>
+                            <option value="keDB">Adv and Mrs</option>
+                            <option value="06">Dr</option>
+                            <option value="0104">Dr &amp; Dr</option>
+                            <option value="0114">Dr &amp; Adv</option>
+                            <option value="0122">Dr &amp; Dr</option>
+                            <option value="0106">Dr &amp; Mrs</option>
+                            <option value="0125">Dr &amp; Ms</option>
+                            <option value="Qsf1">Dr and Dr</option>
+                            <option value="JrKx">Dr and Mr</option>
+                            <option value="4n9F">Dr and Mrs</option>
+                            <option value="3lVy">Dr and Ms</option>
+                            <option value="0118">Judge &amp; Adv</option>
+                            <option value="GEfS">Judge and Ms</option>
+                            <option value="04">Miss</option>
+                            <option value="cun8">Miss and Mrs</option>
+                            <option value="01">Mr</option>
+                            <option value="0121">Mr &amp; Adv</option>
+                            <option value="0108">Mr &amp; Dr</option>
+                            <option value="0124">Mr &amp; Miss</option>
+                            <option value="0101">Mr &amp; Mrs</option>
+                            <option value="0103">Mr &amp; Ms</option>
+                            <option value="0120">Mr &amp; Prof</option>
+                            <option value="2WJ1">Mr and Dr</option>
+                            <option value="snx5">Mr and Miss</option>
+                            <option value="47zp">Mr and Mr</option>
+                            <option value="k0ov">Mr and Mrs</option>
+                            <option value="DhI4">Mr and Ms</option>
+                            <option value="vwUQ">Mr and Prof</option>
+                            <option value="02">Mrs</option>
+                            <option value="DW2G">Mrs and</option>
+                            <option value="4kUs">Mrs and Mrs</option>
+                            <option value="03">Ms</option>
+                            <option value="Ms">Ms and Ms</option>
+                            <option value="0111">Pastor &amp; Mrs</option>
+                            <option value="07">Prof</option>
+                            <option value="0107">Prof &amp; Dr</option>
+                            <option value="0112">Prof &amp; Mrs</option>
+                            <option value="Fybs">Prof and Dr</option>
+                            <option value="TaZ9">Prof and Mrs</option>
+                            <option value="05">Rev</option>
+                            <option value="0105">Rev &amp; Mrs</option>
+                            <option value="0100">Sister</option>
+                            <option value="0117">SSP</option>
+                        </select>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="relation" value="mother" id="mother" />
-                        <label class="form-check-label" for="mother"> <i class="fas fa-female"></i> Mother </label>
+
+                    <div class="col-md-4 mb-2">
+                        <label for="parent-1-first-name" class="form-label"><i class="fas fa-user-tie"></i> First
+                            Name*</label>
+
+                        <input id="parent-1-first-name" type="text" class="form-control" name="parent-1-first-name"
+                            placeholder="First Name" />
                     </div>
 
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="relation" value="others" id="others" />
-                        <label class="form-check-label" for="others"> <i class="fas fa-user"></i> Others </label>
+                    <div class="col-md-4 mb-2">
+                        <label for="parent-1-last-name" class="form-label"><i class="fas fa-user-tie"></i> Last
+                            Name*</label>
+
+                        <input id="parent-1-last-name" type="text" class="form-control" name="parent-1-last-name"
+                            placeholder="Last Name" />
+                    </div>
+
+                    <div class="col-md-4 mb-2">
+                        <label for="parent-1-title" class="form-label"><i class="fas fa-user-tie"></i>
+                            Occupation</label>
+                        <select name="" class="form-select">
+                            <option selected="selected" value="">Select</option>
+                            <option value="AC">Actuary</option>
+                            <option value="ADV">Advocate</option>
+                            <option value="ARC">Architect</option>
+                            <option value="AM">Asset Manager</option>
+                            <option value="ATT">Attorney</option>
+                            <option value="BA">Banker</option>
+                            <option value="BIO">Biokineticist</option>
+                            <option value="CEO">CEO</option>
+                            <option value="CA">Chartered Accountant</option>
+                            <option value="COM">Communications</option>
+                            <option value="Con">Consultant</option>
+                            <option value="CUR">Curator</option>
+                            <option value="Den">Dentist</option>
+                            <option value="Der">Dermatologist</option>
+                            <option value="DM">Development Manger</option>
+                            <option value="DIR">Director</option>
+                            <option value="DOC">Doctor</option>
+                            <option value="ENG">Engineer</option>
+                            <option value="EQU">Equity analyst</option>
+                            <option value="FI">Finance</option>
+                            <option value="Bus">Financial Planner</option>
+                            <option value="HEAD">Head of School</option>
+                            <option value="HR">HR</option>
+                            <option value="INB">Investment Banker</option>
+                            <option value="IT">IT</option>
+                            <option value="LE">Lecturer</option>
+                            <option value="MAN">Manager</option>
+                            <option value="MD">Managing Director</option>
+                            <option value="MARK">Marketing</option>
+                            <option value="MAR">Marketing Dirctor</option>
+                            <option value="NUM">Numerologist</option>
+                            <option value="OTH">Other - Not on list</option>
+                            <option value="PM">Project Manager</option>
+                            <option value="PSY">Psychologist</option>
+                            <option value="QS">Quantity Surveyor</option>
+                            <option value="SEL">Self Employed</option>
+                            <option value="SBA">Senior Business Analyst</option>
+                            <option value="SP">Specialist Physican</option>
+                            <option value="MOM">Stay at home mom</option>
+                            <option value="Tec">Teacher</option>
+
+                        </select>
+                    </div>
+
+                    <div class="col-md-4 mb-2">
+                        <label for="Guardian-email" class="form-label"><i class="fas fa-envelope"></i>
+                            Email*</label>
+
+                        <input id="Guardian-email" type="text" class="form-control" name="Guardian-email"
+                            placeholder="Guardian's Email" />
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="Guardian-mobile" class="form-label"><i class="fas fa-phone"></i>
+                            Mobile*</label>
+
+                        <input id="Guardian-mobile" type="text" class="form-control" name="Guardian-mobile"
+                            placeholder="Guardian's Mobile" />
+                    </div>
+
+                </div>
+
+            </fieldset>
+
+
+            <!-- Parent-2 Details -->
+            <fieldset>
+                <legend>Parent 2 Details</legend>
+
+                <div class="row">
+
+
+                    <div class="col-md-4 mb-2">
+                        <label for="parent-2-title" class="form-label"><i class="fas fa-user-tie"></i> Select
+                            Title*</label>
+                        <select id="parent-2-title" class="form-select" aria-label="Default select example">
+                            <option selected>Select Title</option>
+                            <option value="0110">Adv</option>
+                            <option value="0109">Adv &amp; Dr</option>
+                            <option value="0102">Adv &amp; Mrs</option>
+                            <option value="FbLf">Adv and Adv</option>
+                            <option value="keDB">Adv and Mrs</option>
+                            <option value="06">Dr</option>
+                            <option value="0104">Dr &amp; Dr</option>
+                            <option value="0114">Dr &amp; Adv</option>
+                            <option value="0122">Dr &amp; Dr</option>
+                            <option value="0106">Dr &amp; Mrs</option>
+                            <option value="0125">Dr &amp; Ms</option>
+                            <option value="Qsf1">Dr and Dr</option>
+                            <option value="JrKx">Dr and Mr</option>
+                            <option value="4n9F">Dr and Mrs</option>
+                            <option value="3lVy">Dr and Ms</option>
+                            <option value="0118">Judge &amp; Adv</option>
+                            <option value="GEfS">Judge and Ms</option>
+                            <option value="04">Miss</option>
+                            <option value="cun8">Miss and Mrs</option>
+                            <option value="01">Mr</option>
+                            <option value="0121">Mr &amp; Adv</option>
+                            <option value="0108">Mr &amp; Dr</option>
+                            <option value="0124">Mr &amp; Miss</option>
+                            <option value="0101">Mr &amp; Mrs</option>
+                            <option value="0103">Mr &amp; Ms</option>
+                            <option value="0120">Mr &amp; Prof</option>
+                            <option value="2WJ1">Mr and Dr</option>
+                            <option value="snx5">Mr and Miss</option>
+                            <option value="47zp">Mr and Mr</option>
+                            <option value="k0ov">Mr and Mrs</option>
+                            <option value="DhI4">Mr and Ms</option>
+                            <option value="vwUQ">Mr and Prof</option>
+                            <option value="02">Mrs</option>
+                            <option value="DW2G">Mrs and</option>
+                            <option value="4kUs">Mrs and Mrs</option>
+                            <option value="03">Ms</option>
+                            <option value="Ms">Ms and Ms</option>
+                            <option value="0111">Pastor &amp; Mrs</option>
+                            <option value="07">Prof</option>
+                            <option value="0107">Prof &amp; Dr</option>
+                            <option value="0112">Prof &amp; Mrs</option>
+                            <option value="Fybs">Prof and Dr</option>
+                            <option value="TaZ9">Prof and Mrs</option>
+                            <option value="05">Rev</option>
+                            <option value="0105">Rev &amp; Mrs</option>
+                            <option value="0100">Sister</option>
+                            <option value="0117">SSP</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-4 mb-2">
+                        <label for="parent-2-first-name" class="form-label"><i class="fas fa-user-tie"></i> First
+                            Name*</label>
+
+                        <input id="parent-2-first-name" type="text" class="form-control" name="parent-2-first-name"
+                            placeholder="First Name" />
+                    </div>
+
+                    <div class="col-md-4 mb-2">
+                        <label for="parent-2-last-name" class="form-label"><i class="fas fa-user-tie"></i> Last
+                            Name*</label>
+
+                        <input id="parent-2-last-name" type="text" class="form-control" name="parent-2-last-name"
+                            placeholder="Last Name" />
+                    </div>
+
+                    <div class="col-md-4 mb-2">
+                        <label for="parent-2-title" class="form-label"><i class="fas fa-user-tie"></i>
+                            Occupation</label>
+                        <select name="" class="form-select">
+                            <option selected="selected" value="">Select</option>
+                            <option value="AC">Actuary</option>
+                            <option value="ADV">Advocate</option>
+                            <option value="ARC">Architect</option>
+                            <option value="AM">Asset Manager</option>
+                            <option value="ATT">Attorney</option>
+                            <option value="BA">Banker</option>
+                            <option value="BIO">Biokineticist</option>
+                            <option value="CEO">CEO</option>
+                            <option value="CA">Chartered Accountant</option>
+                            <option value="COM">Communications</option>
+                            <option value="Con">Consultant</option>
+                            <option value="CUR">Curator</option>
+                            <option value="Den">Dentist</option>
+                            <option value="Der">Dermatologist</option>
+                            <option value="DM">Development Manger</option>
+                            <option value="DIR">Director</option>
+                            <option value="DOC">Doctor</option>
+                            <option value="ENG">Engineer</option>
+                            <option value="EQU">Equity analyst</option>
+                            <option value="FI">Finance</option>
+                            <option value="Bus">Financial Planner</option>
+                            <option value="HEAD">Head of School</option>
+                            <option value="HR">HR</option>
+                            <option value="INB">Investment Banker</option>
+                            <option value="IT">IT</option>
+                            <option value="LE">Lecturer</option>
+                            <option value="MAN">Manager</option>
+                            <option value="MD">Managing Director</option>
+                            <option value="MARK">Marketing</option>
+                            <option value="MAR">Marketing Dirctor</option>
+                            <option value="NUM">Numerologist</option>
+                            <option value="OTH">Other - Not on list</option>
+                            <option value="PM">Project Manager</option>
+                            <option value="PSY">Psychologist</option>
+                            <option value="QS">Quantity Surveyor</option>
+                            <option value="SEL">Self Employed</option>
+                            <option value="SBA">Senior Business Analyst</option>
+                            <option value="SP">Specialist Physican</option>
+                            <option value="MOM">Stay at home mom</option>
+                            <option value="Tec">Teacher</option>
+
+                        </select>
+                    </div>
+
+                    <div class="col-md-4 mb-2">
+                        <label for="Guardian-email" class="form-label"><i class="fas fa-envelope"></i>
+                            Email</label>
+
+                        <input id="Guardian-email" type="text" class="form-control" name="Guardian-email"
+                            placeholder="Guardian's Email" />
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="Guardian-mobile" class="form-label"><i class="fas fa-phone"></i>
+                            Mobile</label>
+
+                        <input id="Guardian-mobile" type="text" class="form-control" name="Guardian-mobile"
+                            placeholder="Guardian's Mobile" />
+                    </div>
+
+                </div>
+            </fieldset>
+
+            <!-- Upload Documents -->
+            <fieldset>
+                <legend>Upload Docuuments</legend>
+                <div class="row">
+                    <div class="col-md-6 mb-2">
+                        <label for="file-1" class="form-label">Enter File Title*</label>
+                        <input type="text" class="form-control" value="Pupil Birth Certificate" disabled>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <label for="formFile" class="form-label">Choose Birth Certificate*</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+
+                    <div class="col-md-6 mb-2">
+                        <label for="file-2" class="form-label">Enter File-2 Title*</label>
+                        <input type="text" class="form-control" placeholder="Enter File Title Here">
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <label for="formFile" class="form-label">Choose File-2*</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+
+                    <div class="col-md-6 mb-2">
+                        <label for="file-3" class="form-label">Enter File-3 Title</label>
+                        <input type="text" class="form-control" placeholder="Enter File Title Here">
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <label for="formFile" class="form-label">Choose File-3</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+
+                    <div class="col-md-6 mb-2">
+                        <label for="file-4" class="form-label">Enter File-4 Title</label>
+                        <input type="text" class="form-control" placeholder="Enter File Title Here">
+                    </div>
+                    <div class="col-md-6 mb-2">
+                        <label for="formFile" class="form-label">Choose File-4</label>
+                        <input class="form-control" type="file" id="formFile">
                     </div>
                 </div>
+            </fieldset>
 
-                <div class="col-lg-6 col-md-6 mt-2">
-                    <label for="Guardian-email" class="form-label"><i class="fas fa-envelope"></i> Guardian's
-                        Email*</label>
-
-                    <input id="Guardian-email" type="text" class="form-control" name="Guardian-email"
-                        placeholder="Guardian's Email" />
+            <fieldset>
+                <legend>Other Details</legend>
+                <div class="row">
+                    <div class="col-12">
+                        <label for="reference" class="form-label">How do you know us?*</label>
+                        <textarea class="form-control" id="reference" rows="3"></textarea>
+                    </div>
                 </div>
-                <div class="col-lg-6 col-md-6 mt-2">
-                    <label for="Guardian-mobile" class="form-label"><i class="fas fa-phone"></i> Guardian's
-                        Mobile*</label>
+            </fieldset>
 
-                    <input id="Guardian-mobile" type="text" class="form-control" name="Guardian-mobile"
-                        placeholder="Guardian's Mobile" />
-                </div>
 
-                <div class="form-group mt-3">
-                    <label for="reference" class="form-label">How do you know us?*</label>
-                    <textarea class="form-control" id="reference" rows="3"></textarea>
-                </div>
-
-                <div class="form-group mt-3">
-                    <button type="submit" class="btn btn-dark"><i class="fas fa-user-plus"></i> Submit Form</button>
-                </div>
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-dark"><i class="fas fa-user-plus"></i> Submit Form</button>
             </div>
-            <!--End of Row-->
+        </div>
+        <!--End of Row-->
         </div>
     </section>
 
