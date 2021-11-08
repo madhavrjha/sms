@@ -1918,7 +1918,7 @@ body {
 
 #main-footer .container-fluid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     align-items: flex-start;
     justify-content: space-around;
     gap: 2rem;
@@ -2055,11 +2055,6 @@ body {
 #bottom-footer span {
     font-size: 0.8rem;
     color: #979797;
-}
-
-.address-detail {
-    display: inline;
-    font-size: 1.3rem;
 }
 
 @media screen and (max-width: 576px) {
