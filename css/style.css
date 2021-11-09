@@ -1154,43 +1154,54 @@ body {
           Gallery.html
           #gallery-form
 
+          News.html
+          #news-form
+
 =================================
 =================================
 
 */
 
-#gallery-form {
+#gallery-form,
+#news-form {
   padding: 0 1rem;
 }
 
-#gallery-form .container {
+#gallery-form .container,
+#news-form .container {
   display: flex;
   justify-content: flex-start;
 }
 
-#gallery-form .form-group {
+#gallery-form .form-group,
+#news-form .form-group {
   margin-right: 1rem;
 }
 
-#gallery-form .container .form-group:last-child {
+#gallery-form .container .form-group:last-child,
+#news-form .container .form-group:last-child {
   margin-right: 0;
 }
 
 @media screen and (max-width: 576px) {
-  #gallery-form .container {
+  #gallery-form .container,
+  #news-form .container {
     flex-direction: column;
   }
 
-  #gallery-form .form-group {
+  #gallery-form .form-group,
+  #news-form .form-group {
     margin-right: 0;
     margin-bottom: 1rem;
   }
 
-  #gallery-form .form-group:last-child {
+  #gallery-form .form-group:last-child,
+  #news-form .form-group:last-child {
     margin-bottom: 0;
   }
 
-  #gallery-form select {
+  #gallery-form select,
+  #news-form select {
     width: 100%;
   }
 }
