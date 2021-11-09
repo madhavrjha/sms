@@ -1100,6 +1100,11 @@ body {
   margin-bottom: 2rem;
 }
 
+#enrollment-form fieldset small {
+  color: #555;
+  font-size: 1.1rem;
+}
+
 #enrollment-form legend {
   position: relative;
   padding-bottom: 0.2rem;
@@ -1107,8 +1112,9 @@ body {
 }
 
 #enrollment-form a {
-  color: #000;
+  color: #353535;
   text-decoration: none;
+  font-weight: bold;
 }
 
 #enrollment-form a:hover {
@@ -1129,6 +1135,10 @@ body {
   #enrollment-form fieldset {
     box-shadow: none;
     margin-bottom: 0;
+  }
+
+  #enrollment-form fieldset small {
+    display: block;
   }
 
   #enrollment-form button[type="submit"] {
