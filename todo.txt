@@ -1,0 +1,23 @@
+Todo (as Baba Said on 3rd Nov 2021):
+------------------------------------
+
+
+ - Login Page Should Open in New Tab                                  Completed
+ - There Should Be Category and Year for News                         Completed
+ - Add Document Upload Option in Enrollment Form                      Completed
+ - Add Parent 1 and Parent 2 Details in Enrollment Form               Completed
+ - Add a Form for Ex-Student to Become an Alumni                      -
+ - Add a Option to Donate the School                                  -
+ - Add Address, Phone, and Mail to Footer                             -
+ - Add Class of 2021 in Hall Of Fame Page                             -
+
+
+Todo (as Baba Said on 9th Nov 2021):
+------------------------------------
+
+ - Change Student, Pupil to Learner                                   Completed
+ - Add Address Field in Enrollment Form                               Completed
+ - Add Declaration In Enrollment Form                                 Completed
+ - Ask for Name of Last School in Enrollment                          Completed
+ - Add Result In Enrollment Form                                      Completed
+ - Change Academic Year from 2021 to 2022                             Completed
