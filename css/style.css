@@ -150,6 +150,13 @@ body {
     center/cover;
 }
 
+/* donate-us.html */
+
+#page-heading[data-page="donate-us"] .container {
+  background: url("../images/donate-us-page-heading-bg.jpg") no-repeat center
+    center/cover;
+}
+
 #page-heading .container {
   border-radius: 10px;
   padding: 4rem 0;
