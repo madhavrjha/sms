@@ -9,7 +9,7 @@ Todo (as Baba Said on 3rd Nov 2021):
  - Add a Form for Ex-Student to Become an Alumni                      -
  - Add a Option to Donate the School                                  -
  - Add Address, Phone, and Mail to Footer                             -
- - Add Class of 2021 in Hall Of Fame Page                             -
+ - Add Class of 2021 in Hall Of Fame Page                             Completed
 
 
 Todo (as Baba Said on 9th Nov 2021):

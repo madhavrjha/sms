@@ -1358,7 +1358,7 @@ body {
 #team-member .card-title {
   font-weight: bold;
   text-transform: capitalize;
-  font-family: "Sainfair Display", serif;
+  font-family: "Playfair Display", serif;
   text-align: center;
 }
 
@@ -1434,6 +1434,25 @@ body {
   #alumni .container {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+/*
+
+=================================
+=================================
+
+          hall-of-fame.html
+          #grade
+
+=================================
+=================================
+
+*/
+
+#grade h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 /*
@@ -1555,7 +1574,7 @@ body {
 }
 
 #news-detail .news-title {
-  font-family: "Sainfair Display", serif;
+  font-family: "Playfair Display", serif;
   font-weight: bolder;
   font-size: 2rem;
 }
