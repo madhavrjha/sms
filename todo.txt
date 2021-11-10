@@ -7,7 +7,7 @@ Todo (as Baba Said on 3rd Nov 2021):
  - Add Document Upload Option in Enrollment Form                      Completed
  - Add Parent 1 and Parent 2 Details in Enrollment Form               Completed
  - Add a Form for Ex-Student to Become an Alumni                      -
- - Add a Option to Donate the School                                  -
+ - Add a Option to Donate the School                                  Completed
  - Add Address, Phone, and Mail to Footer                             -
  - Add Class of 2021 in Hall Of Fame Page                             Completed
 
