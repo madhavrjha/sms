@@ -192,7 +192,8 @@
                         <label for="last-school" class="form-label"><i class="fas fa-school"></i> Name of Last
                             School (if any)</label>
 
-                        <input id="last-school" type="text" class="form-control" placeholder="Name of Last School" />
+                        <input id="last-school" type="text" class="form-control"
+                            placeholder="Enter Name of Last School" />
                     </div>
 
 
@@ -201,27 +202,27 @@
 
             <!-- Personal Details -->
             <fieldset>
-                <legend>Learner Details</legend>
+                <legend>Learner's Details</legend>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 mb-2">
                         <label for="fn" class="form-label"><i class="fas fa-user"></i> First Name*</label>
 
                         <input id="fn" type="text" class="form-control" name="first-name"
-                            placeholder="Learner First Name" />
+                            placeholder="Learner's First Name" />
                     </div>
 
                     <div class="col-lg-4 col-md-6 mb-2">
                         <label for="ln" class="form-label"><i class="fas fa-user"></i> Last Name*</label>
 
                         <input id="ln" type="text" class="form-control" name="last-name"
-                            placeholder="Learner Last Name" />
+                            placeholder="Learner's Last Name" />
                     </div>
 
                     <div class="col-lg-4 col-md-6 mb-2">
-                        <label for="gender" class="form-label"><i class="fas fa-user"></i> Gender*</label>
+                        <label for="gender" class="form-label"><i class="fas fa-user"></i>Gender*</label>
 
                         <select name="" id="gender" class="form-select">
-                            <option selected disabled>Gender</option>
+                            <option selected disabled>Select Gender</option>
                             <option value="m">Male</option>
                             <option value="f">Female</option>
                             <option value="o">Others</option>
@@ -234,17 +235,17 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <label for="email" class="form-label"><i class="fas fa-envelope"></i> Learner Email</label>
+                        <label for="email" class="form-label"><i class="fas fa-envelope"></i> Learner's Email</label>
 
                         <input id="email" type="email" class="form-control" name="s-email"
-                            placeholder="Learner Email" />
+                            placeholder="Learner's Email" />
                     </div>
 
                     <div class="col-lg-4 col-md-6">
-                        <label for="mobile" class="form-label"><i class="fas fa-phone"></i> Learner Mobile</label>
+                        <label for="mobile" class="form-label"><i class="fas fa-phone"></i> Learner's Mobile</label>
 
                         <input id="mobile" type="text" class="form-control" name="s-mobile"
-                            placeholder="Learner Mobile" />
+                            placeholder="Learner's Mobile" />
                     </div>
 
                 </div>
@@ -383,14 +384,14 @@
                             Email*</label>
 
                         <input id="Guardian-email" type="text" class="form-control" name="Guardian-email"
-                            placeholder="Guardian's Email" />
+                            placeholder="Parent-1 Email" />
                     </div>
                     <div class="col-md-4 mb-2">
                         <label for="Guardian-mobile" class="form-label"><i class="fas fa-phone"></i>
                             Mobile*</label>
 
                         <input id="Guardian-mobile" type="text" class="form-control" name="Guardian-mobile"
-                            placeholder="Guardian's Mobile" />
+                            placeholder="Parent-1 Mobile" />
                     </div>
 
                 </div>
@@ -530,27 +531,27 @@
                             Email</label>
 
                         <input id="Guardian-email" type="text" class="form-control" name="Guardian-email"
-                            placeholder="Guardian's Email" />
+                            placeholder="Parent-2 Email" />
                     </div>
                     <div class="col-md-4 mb-2">
                         <label for="Guardian-mobile" class="form-label"><i class="fas fa-phone"></i>
                             Mobile</label>
 
                         <input id="Guardian-mobile" type="text" class="form-control" name="Guardian-mobile"
-                            placeholder="Guardian's Mobile" />
+                            placeholder="Parent-2 Mobile" />
                     </div>
 
                 </div>
             </fieldset>
 
-            <!-- Learner Address -->
+            <!-- Learner's Address -->
             <fieldset>
-                <legend>Learner Address</legend>
+                <legend>Learner's Address</legend>
                 <div class="row">
-                    <div class="col-md-4 mb-2">
+                    <div class="col-12 mb-2">
                         <label for="country" class="form-label"><i class="fas fa-flag"></i>
                             Select Country*</label>
-                        <select name="" id="country" class="form-select">
+                        <select name="" id="country" class="form-select" disabled>
                             <option value="Afganistan">Afghanistan</option>
                             <option value="Albania">Albania</option>
                             <option value="Algeria">Algeria</option>
@@ -800,17 +801,6 @@
                         </select>
                     </div>
 
-                    <div class="col-md-4 mb-2">
-                        <label for="postal-code" class="form-label"><i class="fas fa-map-pin"></i> Postal Code*</label>
-                        <input id="postal-code" type="text" class="form-control" placeholder="Enter Postal Code">
-                    </div>
-
-                    <div class="col-md-4 mb-2">
-                        <label for="suburb" class="form-label"><i class="fas fa-map-marked-alt"></i>
-                            Suburb*</label>
-                        <input id="suburb" type="text" class="form-control" placeholder="Enter Suburb">
-                    </div>
-
                     <div class="col-md-6 mb-2">
                         <label for="complex" class="form-label"><i class="fas fa-building"></i> Complex Name &
                             No*</label>
@@ -822,14 +812,22 @@
                         <input id="street" type="text" class="form-control" placeholder="Enter Street Address">
                     </div>
 
+                    <div class="col-md-6 mb-2">
+                        <label for="suburb" class="form-label"><i class="fas fa-map-marked-alt"></i>
+                            Suburb*</label>
+                        <input id="suburb" type="text" class="form-control" placeholder="Enter Suburb">
+                    </div>
 
-
+                    <div class="col-md-6 mb-2">
+                        <label for="postal-code" class="form-label"><i class="fas fa-map-pin"></i> Postal Code*</label>
+                        <input id="postal-code" type="text" class="form-control" placeholder="Enter Postal Code">
+                    </div>
                 </div>
             </fieldset>
 
             <!-- Upload Documents -->
             <fieldset>
-                <legend>Upload Docuuments</legend>
+                <legend>Upload Documents</legend>
                 <div class="row">
 
                     <div class="col-md-6 mb-2">
@@ -858,6 +856,18 @@
                             ID</label>
                         <input class="form-control" type="file" id="formFile">
                     </div>
+
+                    <div class="col-md-6 mb-2">
+                        <label for="formFile" class="form-label"><i class="fas fa-file-upload"></i>Learner Copy of
+                            ID</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+
+                    <div class="col-md-6 mb-2">
+                        <label for="formFile" class="form-label"><i class="fas fa-file-upload"></i>Learner
+                            Passport</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
                 </div>
             </fieldset>
 
@@ -866,7 +876,7 @@
                 <div class="row">
 
                     <div class="col-12">
-                        <label for="reference" class="form-label">How do you know us?</label>
+                        <label for="reference" class="form-label">Any Special Requests?</label>
                         <textarea class="form-control" id="reference" rows="3"></textarea>
                     </div>
                 </div>
@@ -927,8 +937,8 @@
                         <li>the information
                             which is supplied herewith is mandatory for the purposes of this agreement and that without
                             such
-                            information, [SchoolName]
-                            will not enter into agreement with the parent/learner</li>
+                            information, NextSchool
+                            will not enter into agreement with the parent/Learner's</li>
                         <li>The parent acknowledges that they are
                             aware thereof that they
                             have the following rights with regard to such personal information which is hereby
@@ -955,7 +965,7 @@
                         <li>the information
                             which is supplied
                             herewith is mandatory for the purposes of this agreement and that without such information,
-                            Kingsmead will not enter
+                            NextSchool will not enter
                             into agreement with the parent/learner</li>
                         <li>The data subject acknowledges that they are aware
                             thereof that they have the

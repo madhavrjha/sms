@@ -21,3 +21,13 @@ Todo (as Baba Said on 9th Nov 2021):
  - Ask for Name of Last School in Enrollment                          Completed
  - Add Result In Enrollment Form                                      Completed
  - Change Academic Year from 2021 to 2022                             Completed
+
+
+
+ToDo (as Baba Said on 10th Nov 2021):
+-------------------------------------
+
+ - Some Changes in Enrollment Form                                    -
+ - Some Chnages in Donate-Us Form                                     -
+ - Make Header Fixed on Top                                           -
+ - Make Footer Like Kingsmead                                         -
