@@ -8,7 +8,7 @@ Todo (as Baba Said on 3rd Nov 2021):
  - Add Parent 1 and Parent 2 Details in Enrollment Form               Completed
  - Add a Form for Ex-Student to Become an Alumni                      -
  - Add a Option to Donate the School                                  Completed
- - Add Address, Phone, and Mail to Footer                             -
+ - Add Address, Phone, and Mail to Footer                             Omitted
  - Add Class of 2021 in Hall Of Fame Page                             Completed
 
 
@@ -27,7 +27,7 @@ Todo (as Baba Said on 9th Nov 2021):
 ToDo (as Baba Said on 10th Nov 2021):
 -------------------------------------
 
- - Some Changes in Enrollment Form                                    -
- - Some Chnages in Donate-Us Form                                     -
+ - Some Changes in Enrollment Form                                    Completed
+ - Some Changes in Donate-Us Form                                     Completed
  - Make Header Fixed on Top                                           -
  - Make Footer Like Kingsmead                                         -
