@@ -1,0 +1,60 @@
+#alumni {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+#alumni .container {
+  display: block;
+}
+
+#alumni h2 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+}
+
+#alumni ul {
+  columns: 3;
+}
+
+#alumni li {
+  line-height: 1.7;
+}
+
+#alumni a {
+  color: #222;
+  text-decoration: none;
+}
+
+#alumni a:hover {
+  text-decoration: underline;
+}
+
+.popover-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0.1rem;
+}
+
+.popover-body img {
+  width: 100%;
+}
+
+.popover-body .right {
+  text-align: justify;
+  margin-top: 0.3rem;
+}
+
+@media (max-width: 992px) {
+  #alumni ul {
+    columns: 2;
+  }
+}
+
+@media (max-width: 576px) {
+  #alumni ul {
+    columns: 1;
+  }
+}

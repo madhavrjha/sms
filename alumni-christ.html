@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#3459e6" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/5/zephyr/bootstrap.min.css"
+    />
+
+    <!-- Font Awesome 6 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/alumni.css" />
+
+    <title>Alumni | Next School</title>
+  </head>
+
+  <body>
+    <!-- 
+
+    ====================
+    ====================
+
+      Navbar Header
+
+    ====================
+    ====================
+
+   -->
+
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-light bg-light"
+      id="main-nav"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img
+            id="brand-img"
+            class="img-fluid"
+            src="./images/brand.png"
+            alt="brand-img"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                ><i class="fas fa-home"></i> Home</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-child"></i> School Life
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./gallery.html"
+                    ><i class="fas fa-photo-film"></i> Gallery</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-school"></i> General
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./enrollment-form.html"
+                    ><i class="fas fa-paperclip"></i> Enrollment Form</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./study-material.html"
+                    ><i class="fas fa-book"></i> Study Material</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    ><i class="fas fa-chalkboard-user"></i> Academics</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-newspaper"></i> News
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./news.html"
+                    ><i class="fas fa-newspaper"></i> News</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-address-card"></i> About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./about-us.html"
+                    ><i class="fas fa-address-card"></i> About Us</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./our-team.html"
+                    ><i class="fas fa-users"></i> Our Team</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./alumni.html"
+                    ><i class="fas fa-award"></i> Alumni</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./hall-of-fame.html"
+                    ><i class="fas fa-user-graduate"></i> Hall of Fame</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./sponsors.html"
+                    ><i class="fas fa-money-check"></i> Sponsors</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html"
+                ><i class="fas fa-address-book"></i> Contact</a
+              >
+            </li>
+          </ul>
+          <a href="#" target="_blank" id="login-btn" class="d-flex btn btn-dark"
+            ><i class="fas fa-sign-in-alt"></i> LogIn</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- 
+
+    ====================
+    ====================
+
+      Page Heading
+
+    ====================
+    ====================
+
+   -->
+
+    <section id="page-heading" data-page="alumni">
+      <div class="container">
+        <h1><i class="fas fa-user-graduate"></i> Alumni</h1>
+      </div>
+    </section>
+
+    <!-- 
+  
+      ====================
+      ====================
+  
+        Alumni
+  
+      ====================
+      ====================
+  
+     -->
+
+    <section id="alumni" data-page="large-alumni">
+      <div class="container">
+        <h2>Notable Alumni</h2>
+        <ul>
+          <li>
+            <a
+              href="#"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover"
+              data-bs-content="Alumni Name"
+              >Robert Adeyinka Adebayo</a
+            >
+            <div style="display: none">
+              <div class="popover-body">
+                <div class="left">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/en/0/09/Photo_of_late_Gen._Robert_Adeyinka_Adebayo.jpg"
+                    alt="alumni-member"
+                  />
+                </div>
+                <div class="right">
+                  Robert Adeyinka Adebayo (9 March 1928 – 8 March 2017) was a
+                  Nigerian Army major general who served as governor of the now
+                  defunct Western State of Nigeria, 1966–1971.[4] He was also
+                  Chief of Staff of the Nigerian Army and was Commandant of the
+                  Nigerian Defence Academy.
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover"
+              data-bs-content="Alumni Name"
+              >Michael Bamidele Otiko</a
+            >
+            <div style="display: none">
+              <div class="popover-body">
+                <div class="left">
+                  <img
+                    src="https://guardian.ng/wp-content/uploads/2017/10/Michael-Adekunle-Ajasin-640x360.jpg"
+                    alt="alumni-member"
+                  />
+                </div>
+                <div class="right">
+                  Commodore Michael Bamidele Otiko (1934–1999) was the first
+                  director of naval education in Nigeria, and later was
+                  appointed Governor of Ondo State, Nigeria.
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover"
+              data-bs-content="Alumni Name"
+              >J.F. Ade Ajayi</a
+            >
+            <div style="display: none">
+              <div class="popover-body">
+                <div class="left">
+                  <img
+                    src="http://1.bp.blogspot.com/-BwP-bgaSW2A/U-inQhmZjgI/AAAAAAAAJ2Y/7svFDnFwtIQ/s1600/image.jpg"
+                    alt="alumni-member"
+                  />
+                </div>
+                <div class="right">
+                  Jacob Festus Adeniyi Ajayi, commonly known as J. F. Ade Ajayi,
+                  was a Nigerian historian and a member of the Ibadan school, a
+                  group of scholars interested in introducing African
+                  perspectives to African history and focusing on the internal
+                  historical forces that shaped African lives.
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover"
+              data-bs-content="Alumni Name"
+              >Ladipo Adamolekun</a
+            >
+            <div style="display: none">
+              <div class="popover-body">
+                <div class="left">
+                  <img
+                    src="https://cdn.punchng.com/wp-content/uploads/2020/02/26202739/Prof.-Ladipo-Adamolekun.jpg"
+                    alt="alumni-member"
+                  />
+                </div>
+                <div class="right">
+                  Ladipo Adamolekun is a Nigerian public administration scholar,
+                  former dean of the Faculty of Administration at Obafemi
+                  Awolowo University and was a lead public sector management
+                  specialist at World Bank. He is one of the leading scholars on
+                  political and administrative management in Africa.
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover"
+              data-bs-content="Alumni Name"
+              >Niyi Osundare</a
+            >
+            <div style="display: none">
+              <div class="popover-body">
+                <div class="left">
+                  <img
+                    src="data:image/jpeg;base64,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"
+                    alt="alumni-member"
+                  />
+                </div>
+                <div class="right">
+                  Niyi Osundare is a leading African poet, dramatist, linguist,
+                  and literary critic. Born on March 12, 1947 in Ikere-Ekiti,
+                  Nigeria, his poetry is influenced by the oral poetry of his
+                  Yorùbá culture, which he capaciously hybridizes with other
+                  poetic traditions of the world, including African American,
+                  Latin American, Asian, and European
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover"
+              data-bs-content="Alumni Name"
+              >Michael Omolewa</a
+            >
+            <div style="display: none">
+              <div class="popover-body">
+                <div class="left">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Michael_Abiola_Omolewa.JPG/375px-Michael_Abiola_Omolewa.JPG "
+                    alt="alumni-member"
+                  />
+                </div>
+                <div class="right">
+                  Michael Abiola Omolewa is a Nigerian diplomat, scholar,
+                  education historian, and civil servant. From September 2003 to
+                  October 2005, he served as the 32nd president of the General
+                  Conference of the United Nations Educational, Scientific and
+                  Cultural Organization
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover"
+              data-bs-content="Alumni Name"
+              >Olusegun Olutoyin Aganga</a
+            >
+            <div style="display: none">
+              <div class="popover-body">
+                <div class="left">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Aganga%2C_Olusegun_Olutoyin_%28IMF%29.jpg/330px-Aganga%2C_Olusegun_Olutoyin_%28IMF%29.jpg"
+                    alt="alumni-member"
+                  />
+                </div>
+                <div class="right">
+                  Olusegun Olutoyin Aganga was the Minister of Industry, Trade
+                  and Investment of Nigeria. He was first nominated by General
+                  Obasanjo and appointed by President Jonathan as Minister of
+                  Finance from 6 April 2010 to June 2011.
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover"
+              data-bs-content="Alumni Name"
+              >Benjamin Oluwakayode Osuntokun</a
+            >
+            <div style="display: none">
+              <div class="popover-body">
+                <div class="left">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/en/4/44/Benjamin_Oluwakayode_Osuntokun.jpg"
+                    alt="alumni-member"
+                  />
+                </div>
+                <div class="right">
+                  Professor Benjamin Oluwakayode Osuntokun, was a researcher and
+                  neurologist from Okemesi, Ekiti State, Nigeria. Known for
+                  discovering the cause of ataxic tropical neuropathy, he was a
+                  founding member of the Pan African Association of Neurological
+                  Sciences and an early advocate and researcher on tropical
+                  neurology.
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover"
+              data-bs-content="Alumni Name"
+              >Kayode Fayemi</a
+            >
+            <div style="display: none">
+              <div class="popover-body">
+                <div class="left">
+                  <img
+                    src="data:image/jpeg;base64,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"
+                    alt="alumni-member"
+                  />
+                </div>
+                <div class="right">
+                  John Olukayode Fayemi, is a Nigerian politician who is
+                  currently serving as the Governor of Ekiti State and Chairman
+                  of Nigeria Governors' Forum (NGF) in office since 16 October
+                  2018. He previously served in office between 2010 and 2014
+                  before losing re-election to Ayodele Fayose.
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              data-bs-toggle="popover"
+              data-bs-trigger="hover"
+              data-bs-content="Alumni Name"
+              >Bolaji Akinyemi</a
+            >
+            <div style="display: none">
+              <div class="popover-body">
+                <div class="left">
+                  <img
+                    src="https://panafricanvisions.com/wp-content/uploads/2019/08/Prof-Bolaji-Akinyemi.jpg"
+                    alt="alumni-member"
+                  />
+                </div>
+                <div class="right">
+                  Akinwande Bolaji Akinyemi is a Nigerian professor of political
+                  science who was Nigeria External Affairs Minister from 1985 to
+                  late 1987. He is the chairman of the National Think Tank.
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 
+    
+    ====================
+    ====================
+
+      Footer
+
+    ====================
+    ====================
+
+  -->
+
+    <section id="footer">
+      <div class="top-footer">
+        <div class="container">
+          <div class="footer-col">
+            <img src="./images/brand.png" alt="brand Image" />
+            <div>
+              <a href="#"><img src="./images/google.svg" alt="" /></a>
+              <a href="#"><img src="./images/apple.svg" alt="" /></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h2><i class="fas fa-contact-book"></i> Contact Us</h2>
+            <ul>
+              <li>
+                <a href="mailto:info@nextschool.co.za">info@nextschool.co.za</a>
+              </li>
+              <li><a href="tel:+27-737878798">+27-737878798</a></li>
+            </ul>
+            <ul>
+              <li>Office hours: 09:00 AM to 06:00 PM</li>
+              <li>Monday to Friday</li>
+            </ul>
+            <h2 class="mt-3">
+              <i class="fas fa-location-dot"></i> GPS Coordinates
+            </h2>
+            <ul>
+              <li>26’08’47.16″S</li>
+              <li>28’02’44.64″E</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h2><i class="fas fa-map-location-dot"></i> Physical Address</h2>
+            <ul>
+              <li>3350</li>
+              <li>Phandamashango Street</li>
+              <li>Tshiawelo Ext.</li>
+              <li>Soweto, PO Box 118 Tshiawelo 1818</li>
+              <li>Johannesburg</li>
+            </ul>
+
+            <button
+              class="button"
+              onclick="window.location.href = './donate-us.html'"
+            >
+              <i class="fas fa-hand-holding-heart"></i> Sponsor Our School
+              <div class="button__horizontal"></div>
+              <div class="button__vertical"></div>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="middle-footer">
+        <div class="container">
+          <ul class="social-icons">
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-google"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </li>
+          </ul>
+
+          <ul class="footer-menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about-us.html">About</a></li>
+            <li><a href="./enrollment-form.html">Apply</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./study-material.html">Study Material</a></li>
+            <li><a href="./gallery.html">Media</a></li>
+            <li><a href="./sponsors.html">Sponsors</a></li>
+            <li><a href="./alumni.html">Alumni</a></li>
+          </ul>
+
+          <p>
+            By accessing, using and/or interacting with NextSchool via
+            its online and/or electronic platforms such as its website and
+            application, you consent to the processing of your personal
+            information by NextSchool. The Processing of personal
+            information will be done in accordance with its POPI Policy.  Should
+            you not consent, you must cease your interaction with NextSchool on
+            any and every platform.
+          </p>
+        </div>
+      </div>
+      <div class="bottom-footer">
+        <div class="container">
+          <p>
+            Copyright &copy; 2021, NextSchool.
+            <small>All rights reserved.</small>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="./javascripts/main.js"></script>
+
+    <script>
+      var popoverTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="popover"]')
+      );
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl, { html: true });
+      });
+
+      const alumniPopovers = document.querySelectorAll(
+        'a[data-bs-toggle="popover"]'
+      );
+
+      alumniPopovers.forEach((alumniPopover) => {
+        alumniPopover.setAttribute(
+          "data-bs-content",
+          alumniPopover.nextElementSibling.innerHTML
+        );
+        console.log(alumniPopover.nextElementSibling.innerHTML);
+      });
+    </script>
+  </body>
+</html>
