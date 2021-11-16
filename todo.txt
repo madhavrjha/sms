@@ -29,5 +29,5 @@ ToDo (as Baba Said on 10th Nov 2021):
 
  - Some Changes in Enrollment Form                                    Completed
  - Some Changes in Donate-Us Form                                     Completed
- - Make Header Fixed on Top                                           -
- - Make Footer Like Kingsmead                                         -
+ - Make Header Fixed on Top                                           Completed
+ - Make Footer Like Kingsmead                                         Completed

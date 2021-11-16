@@ -1009,7 +1009,7 @@ body {
 #book-list-1 .book-box h2 {
   color: #fff;
   font-size: 1.3rem;
-  font-family: "Fainfair Display", serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
   background-color: var(--bs-dark);
   text-transform: uppercase;
@@ -1056,9 +1056,22 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
   #book-list-1 .container {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  #book-list-1 .book-box ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    text-align: center;
+    /* columns: 3; */
+    /* column-rule: 1px solid #232323; */
+  }
+
+  #book-list-1 .book-box li:last-child {
+    border-bottom: 1px dotted #ccc;
   }
 }
 
